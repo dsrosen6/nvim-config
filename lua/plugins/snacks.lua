@@ -12,13 +12,13 @@ return {
 ██   ████   ████   ██ ██      ██ 
 ]],
         },
-        picker = {
-          hidden = true,
-          ignored = true,
+      },
+      picker = {
+        hidden = true,
+        ignored = true,
+        layout = {
           layout = {
-            layout = {
-              width = 0.2,
-            },
+            width = 0.2,
           },
         },
       },
