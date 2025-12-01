@@ -8,6 +8,10 @@ return {
           settings = {
             gopls = {
               usePlaceholders = false,
+              analyses = {
+                -- disables package comment warning
+                ST1000 = false,
+              },
             },
           },
         },
