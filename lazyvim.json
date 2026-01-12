@@ -1,13 +1,11 @@
 {
-  "extras": [
-    "lazyvim.plugins.extras.ai.copilot-chat",
-    "lazyvim.plugins.extras.coding.luasnip",
-    "lazyvim.plugins.extras.coding.mini-surround",
-    "lazyvim.plugins.extras.editor.refactoring"
-  ],
-  "install_version": 8,
-  "news": {
-    "NEWS.md": "11866"
-  },
-  "version": 8
+    "extras": [
+        "lazyvim.plugins.extras.coding.luasnip",
+        "lazyvim.plugins.extras.coding.mini-surround"
+    ],
+    "install_version": 8,
+    "news": {
+        "NEWS.md": "11866"
+    },
+    "version": 8
 }
