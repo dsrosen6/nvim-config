@@ -26,6 +26,7 @@ require("lazy").setup({
       { import = "lazyvim.plugins.extras.lang.python" },
       { import = "lazyvim.plugins.extras.lang.yaml" },
       { import = "lazyvim.plugins.extras.lang.sql" },
+      { import = "lazyvim.plugins.extras.lang.typescript" },
     }
 
     -- Only add Nix if not on a Mac. Only need it on NixOS.
