@@ -28,11 +28,6 @@ require("lazy").setup({
       { import = "lazyvim.plugins.extras.lang.typescript" },
     }
 
-    -- Only add Nix if not on a Mac. Only need it on NixOS.
-    if vim.fn.has("mac") == 0 then
-      table.insert(specs, { import = "lazyvim.plugins.extras.lang.nix" })
-    end
-
     table.insert(specs, { import = "plugins" })
 
     return specs
